@@ -17,7 +17,7 @@ if(isset($_SESSION['error'])){
 	<body>
 		<div class="login-page">
 			<form action="checklogin.php" method="post" class="form"> 
-				<div><input id="username" name="username" type="text" placeholder="username" class="text_box" required></div>
+				<div><input id="username" name="username" type="text" placeholder="usuario" class="text_box" required></div>
 				<br />
 				<div><input id="password" name="password" type="password" placeholder="password" class="text_box" required></div>
 				<br />
